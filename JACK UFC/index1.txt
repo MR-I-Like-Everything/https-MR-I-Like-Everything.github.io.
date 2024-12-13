@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home UFC</title>
+    <style>
+        /* General Reset for Consistent Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and Background */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header and Image Styling */
+        h2 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Navigation Bar Styling */
+        ul {
+            list-style-type: none;
+            background-color: #000;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        li a {
+            display: block;
+            color: #ffffff;
+            padding: 15px 20px;
+            text-decoration: none;
+            font-family: 'Arial', sans-serif;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        li a:hover {
+            background-color: #555;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            ul {
+                text-align: left;
+                width: 100%;
+            }
+
+            li {
+                display: block;
+                width: 100%;
+                margin-right: 0;
+            }
+
+            li a {
+                padding: 10px 15px;
+            }
+        }
+
+        /* Section Styling */
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 1200px;
+        }
+
+        section h3 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        section p {
+            font-size: 18px;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>UFC 5</h2>
+    <img src="https://www.vietnam.vn/wp-content/uploads/2023/09/EA-Sports-tiet-lo-UFC-5-se-phat-hanh-vao.png" width="1000" height="1200">
+
+    <!-- Navigation Menu -->
+    <ul>
+        <li><a href="#ABOUT">ABOUT</a></li>
+        <li><a href="#ALTER EGOS">ALTER EGOS</a></li>
+        <li><a href="#FIGHTERS">FIGHTERS</a></li>
+        <li><a href="#TIPS AND TRICKS">TIPS AND TRICKS</a></li>
+        <li><a href="#NEWS & MEDIA">NEWS & MEDIA</a></li>
+        <li><a href="#COMMUNITY">COMMUNITY</a></li>
+    </ul>
+
+    <!-- Section Example (Content Area) -->
+    <section id="ABOUT">
+        <h3>About UFC 5</h3>
+        <p>UFC 5 is the latest installment in the EA Sports UFC franchise. It brings new fighters, improved graphics, and fresh gameplay mechanics. Whether you're a seasoned fighter or a newcomer, UFC 5 promises an exciting experience.</p>
+    </section>
+
+    <section id="ALTER EGOS">
+        <h3>Alter Egos</h3>
+        <p>In UFC 5, players can choose from a wide variety of alter egos with distinct fighting styles and special moves. Customize your character to suit your playstyle.</p>
+    </section>
+
+    <section id="FIGHTERS">
+        <h3>Fighters</h3>
+        <p>UFC 5 introduces a diverse roster of fighters from around the world, including legendary champions and up-and-coming prospects. Choose your favorite and lead them to victory.</p>
+    </section>
+
+    <section id="TIPS AND TRICKS">
+        <h3>Tips and Tricks</h3>
+        <p>Master the game with tips and tricks for better gameplay. From basic controls to advanced strategies, we've got you covered.</p>
+    </section>
+
+    <section id="NEWS & MEDIA">
+        <h3>News & Media</h3>
+        <p>Stay updated with the latest UFC 5 news, including game releases, updates, and media content like trailers and interviews.</p>
+    </section>
+
+    <section id="COMMUNITY">
+        <h3>Community</h3>
+        <p>Join the UFC 5 community to share your experiences, discuss strategies, and connect with other fans of the game.</p>
+    </section>
+
+</body>
+</html>
